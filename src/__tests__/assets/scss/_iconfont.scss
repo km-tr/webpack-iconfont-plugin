@@ -1,0 +1,54 @@
+
+$iconfont-bookmark: "\ea01";
+
+$iconfont-calendar: "\ea03";
+
+$iconfont-camera: "\ea02";
+
+$iconfont-chat: "\ea04";
+
+$iconfont-check: "\ea05";
+
+
+@font-face {
+    font-family: iconfont;
+    src: url("/static/fonts/iconfont.eot");
+    src: url("/static/fonts/iconfont.eot?#iefix") format("embedded-opentype"), url("/static/fonts/iconfont.woff2") format("woff2"), url("/static/fonts/iconfont.woff") format("woff"), url("/static/fonts/iconfont.ttf") format("truetype"), url("/static/fonts/iconfont.svg#iconfont") format("svg");
+    font-style: normal;
+    font-weight: 400;
+}
+
+%iconfont {
+    display: inline-block;
+    text-rendering: auto;
+    font-family: iconfont;
+    font-style: normal;
+    font-size: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+.iconfont {
+    @extend %iconfont;
+}
+
+
+.iconfont-bookmark::before {
+    content: "\ea01";
+}
+
+.iconfont-calendar::before {
+    content: "\ea03";
+}
+
+.iconfont-camera::before {
+    content: "\ea02";
+}
+
+.iconfont-chat::before {
+    content: "\ea04";
+}
+
+.iconfont-check::before {
+    content: "\ea05";
+}
+
