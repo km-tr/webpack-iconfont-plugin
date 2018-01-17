@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "babel --ignore __tests__ --copy-files -s inline -d dist src",
-    "prepublish": "npm test && npm run build",
+    "prepare": "npm test && npm run build",
     "test": "jest"
   },
   "keywords": [
