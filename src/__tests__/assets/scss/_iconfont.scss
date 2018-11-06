@@ -1,9 +1,9 @@
 
 $iconfont-bookmark: "\ea01";
 
-$iconfont-calendar: "\ea03";
+$iconfont-calendar: "\ea02";
 
-$iconfont-camera: "\ea02";
+$iconfont-camera: "\ea03";
 
 $iconfont-chat: "\ea04";
 
@@ -37,11 +37,11 @@ $iconfont-check: "\ea05";
 }
 
 .iconfont-calendar::before {
-    content: "\ea03";
+    content: "\ea02";
 }
 
 .iconfont-camera::before {
-    content: "\ea02";
+    content: "\ea03";
 }
 
 .iconfont-chat::before {
