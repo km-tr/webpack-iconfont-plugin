@@ -41,7 +41,7 @@
   "dependencies": {
     "async-throttle": "^1.1.0",
     "clone-deep": "^1.0.0",
-    "fs-extra": "^3.0.0",
+    "fs-extra": "^9.0.0",
     "glob-parent": "^3.1.0",
     "globby": "^6.1.0",
     "hasha": "^3.0.0",
